@@ -1,4 +1,12 @@
-pip install scikit-learn
-pip install pandas
-pip install numpy
-pip install streamlit
+scikit-learn
+numpy
+altair
+boto3
+ccxt
+google
+gspread
+pandas
+regex
+requests
+s3fs == 0.4.*
+streamlit == 1.1.*
