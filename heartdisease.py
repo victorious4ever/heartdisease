@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-heart_disease2 = pd.read_csv(r'C:/Users/Krishna/Downloads/heart-disease.csv')
+heart_disease2 = pd.read_csv(r'heart-disease.csv')
 st.write("""
         ## Way to calculate risk of heart disease without going to the doctor. This data is based on the Heart disease cleveland UCI data set from kaggle https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
           Note: these results are not equivalent to a medical diagnosis!  
